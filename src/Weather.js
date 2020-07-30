@@ -27,9 +27,9 @@ const Weather = ({ weather, setUnit, unit }) => {
 
   const windSpeed = () => {
     if (unit === 'M') {
-      return 'meters per second'
+      return 'kph'
     } else {
-      return 'miles per second'
+      return 'mph'
     }
   }
 
@@ -52,7 +52,7 @@ const Weather = ({ weather, setUnit, unit }) => {
       <br />
       Humidity: {weather.rh} %
       <br />
-      Wind: {weather.wind_spd} {windSpeed()}
+      Wind: {weather.wind_spd.toFixed(2)} {windSpeed()}
       <br />
       Wind Direction: {weather.wind_dir}
     </div>
