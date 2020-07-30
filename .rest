@@ -1,0 +1,47 @@
+GET http://api.weatherstack.com/current?access_key=902ac71540d0f6394305d2fe2d655813&query=19.2823,166.6470&units=f HTTP/1.1
+###
+GET https://api.climacell.co/v3/locations HTTP/1.1
+content-type: application/json
+apikey: 6ofwnWkWFHrfL40dN9T9PaTAqRbid2Fx
+###
+GET https://api.climacell.co/v3/weather/realtime?lat=33&lon=65&unit_system=si&fields=precipitation%2Cprecipitation_type%2Ctemp%2Cfeels_like%2Cdewpoint%2Cwind_speed%2Cwind_gust%2Cbaro_pressure%2Cvisibility%2Chumidity%2Cwind_direction%2Csunrise%2Csunset%2Ccloud_cover%2Ccloud_ceiling%2Ccloud_base%2Csurface_shortwave_radiation%2Cmoon_phase%2Cweather_code&apikey=6ofwnWkWFHrfL40dN9T9PaTAqRbid2Fx
+###
+GET https://api.climacell.co/v3/weather/realtime?lat=33&lon=65&unit_system=si&apikey=6ofwnWkWFHrfL40dN9T9PaTAqRbid2Fx
+###
+GET http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=08e50ef58b571a4681a3a36d29412e4a
+###
+GET http://dataservice.accuweather.com/locations/v1/regions?apikey=zcOlZR01g6KNjofkC5bkNZEpQ8Z7xNlV
+###
+GET http://dataservice.accuweather.com/locations/v1/countries?apikey=zcOlZR01g6KNjofkC5bkNZEpQ8Z7xNlV
+
+### USE THIS ONE
+GET http://dataservice.accuweather.com/locations/v1/cities/BJ/search?apikey=A1GZSP9n05AqeF1JmZPEC8CEh6FOvVKp&q=Porto-Novo
+
+###
+GET http://dataservice.accuweather.com/locations/v1/countries/ARC?apikey=zcOlZR01g6KNjofkC5bkNZEpQ8Z7xNlV
+
+###
+GET http://dataservice.accuweather.com/locations/v1/countries/ASI?apikey=zcOlZR01g6KNjofkC5bkNZEpQ8Z7xNlV
+
+###
+GET http://dataservice.accuweather.com/locations/v1/countries/CAC?apikey=zcOlZR01g6KNjofkC5bkNZEpQ8Z7xNlV
+
+###
+GET http://dataservice.accuweather.com/locations/v1/countries/EUR?apikey=zcOlZR01g6KNjofkC5bkNZEpQ8Z7xNlV
+
+###
+GET http://dataservice.accuweather.com/locations/v1/countries/MEA?apikey=zcOlZR01g6KNjofkC5bkNZEpQ8Z7xNlV
+###
+GET http://dataservice.accuweather.com/locations/v1/countries/NAM?apikey=zcOlZR01g6KNjofkC5bkNZEpQ8Z7xNlV
+###
+GET http://dataservice.accuweather.com/locations/v1/countries/OCN?apikey=zcOlZR01g6KNjofkC5bkNZEpQ8Z7xNlV
+###
+GET http://dataservice.accuweather.com/locations/v1/countries/SAM?apikey=zcOlZR01g6KNjofkC5bkNZEpQ8Z7xNlV
+###
+GET http://dataservice.accuweather.com/currentconditions/v1/623?apikey=zcOlZR01g6KNjofkC5bkNZEpQ8Z7xNlV&details=true
+###
+GET https://api.weatherbit.io/v2.0/current?&lat=38.123&lon=-78.543&key=8ec0ddb85ff54fb5a709ac7674e43924
+###
+GET https://api.weatherbit.io/v2.0/current?&lat=-13.3&lon=-176.2&key=8ec0ddb85ff54fb5a709ac7674e43924
+###
+GET GET https://api.weatherbit.io/v2.0/current?city=Raleigh,NC&units=M&key=8ec0ddb85ff54fb5a709ac7674e43924
