@@ -17,10 +17,9 @@ const CountryDetail = ({ country }) => {
     return country.latlng[0] + ',' + country.latlng[1]
   }
 
-
   useEffect(() => {
     const uri = `https://api.weatherbit.io/v2.0/current?&lat=${lat}&lon=${lon}&units=${unit}&key=${process.env.REACT_APP_WEATHERBIT_KEY}`
-   //const uri = `https://api.weatherbit.io/v2.0/current?&city=${country.capital}&units=${unit}&key=${process.env.REACT_APP_WEATHERBIT_KEY}`
+    //const uri = `https://api.weatherbit.io/v2.0/current?&city=${country.capital}&units=${unit}&key=${process.env.REACT_APP_WEATHERBIT_KEY}`
 
     axios.get(uri).then((response) => {
       setWeather(response.data.data[0])
@@ -50,12 +49,13 @@ const CountryDetail = ({ country }) => {
 
   return (
     <div>
-       <h2>{country.name}</h2>
+      <h2>{country.name}</h2>
       <div>
         <h3>
           <a
             href="https://en.wikipedia.org/wiki/Exonym_and_endonym"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Endonym:
           </a>{' '}

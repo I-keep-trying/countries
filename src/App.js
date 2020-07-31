@@ -6,6 +6,7 @@ import Country from './Country'
 import CountryDetail from './CountryDetail'
 import Filter from './Filter'
 import Button from './Button'
+import Footer from './Footer'
 import './App.css'
 import './Weather.css'
 
@@ -75,7 +76,7 @@ function App() {
 
         <Countries content={content} />
       </div>
-
+<Footer />
     </div>
   );
 }

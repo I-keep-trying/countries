@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) version 16.13.1.
+# World Countries
+
+## Country info and weather search app
+
+## Fullstackopen exercise
+
+[App demo published with netlify](https://modest-swirles-0dd26a.netlify.app/)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) version 16.13.1., with a few additional settings.
 
 Easier to clone a boilerplate than doing npx etc...
 

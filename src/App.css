@@ -1,5 +1,15 @@
 .App {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -12,6 +22,8 @@
   text-align: left;
   padding-left: 1em;
   margin-bottom: 3em;
+  flex-grow: 1;
+  padding: 1rem 1rem 0 1rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -30,6 +42,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
   padding-left: 0.5em;
+  flex-shrink: 0;
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  flex-shrink: 0;
+  margin-top: 0.5rem;
+  padding-left: 0.5em;
+  padding-bottom: 1rem;
 }
 
 .App-link {
